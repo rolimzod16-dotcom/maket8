@@ -16,4 +16,5 @@
 
 ## Vercel
 
-Импортируйте этот репозиторий в Vercel. Параметры сборки заданы в `vercel.json`.
+Репозиторий собирается как Next.js. Параметры заданы в `vercel.json`.
+После `git push` в `main` Vercel сам выкатывает production.

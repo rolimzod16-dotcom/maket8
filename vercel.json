@@ -1,6 +1,5 @@
 {
-  "buildCommand": "pnpm build",
-  "outputDirectory": "dist/client",
-  "installCommand": "pnpm install --frozen-lockfile",
-  "framework": null
+  "framework": "nextjs",
+  "buildCommand": "next build",
+  "installCommand": "pnpm install --frozen-lockfile"
 }
