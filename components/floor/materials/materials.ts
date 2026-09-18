@@ -1,0 +1,1 @@
+export const materials={wall:{color:"#f5f6f7",roughness:.85},floor:{color:"#8e969f",roughness:.92},selectedFloor:{color:"#2694ff",roughness:.65},door:{color:"#7a4c2d",roughness:.7},window:{color:"#bce7ff",roughness:.18,metalness:.08},ceiling:{color:"#ffffff",roughness:.9}};
