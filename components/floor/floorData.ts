@@ -18,4 +18,16 @@ export const rooms:Room[]=[
  {id:"elevator_01",name:"Лифтовая шахта",type:"Техническая зона",area:18,x:4.15,z:21,w:3.5,d:7,cameraSpawn:[4.15,1.7,21]},
  {id:"tech_01",name:"Техническое помещение",type:"Инженерная зона",area:20,x:7.65,z:21,w:3.5,d:7,cameraSpawn:[7.65,1.7,21]},
  {id:"terrace_01",name:"Закруглённый холл",type:"Общая зона",area:100,x:0,z:26,w:18,d:8,cameraSpawn:[0,1.7,25]}];
-export const materialConfig={wall:{color:"#f5f6f7",roughness:.85},floor:{color:"#8e969f",roughness:.92},selectedFloor:{color:"#2694ff",roughness:.65},door:{color:"#7a4c2d",roughness:.7},window:{color:"#bce7ff",opacity:.42},ceiling:{color:"#fff",roughness:.9}};
+export const materialConfig = {
+  wall: { color: "#efeae3", roughness: 0.88 },
+  floor: { color: "#d7c7b2", roughness: 0.9 },
+  corridor: { color: "#c9b49a", roughness: 0.92 },
+  roomFloor: { color: "#e6d8c6", roughness: 0.9 },
+  selectedFloor: { color: "#4ea3ff", roughness: 0.7 },
+  skirting: { color: "#5a4a3c", roughness: 0.85 },
+  roomEdge: { color: "#6b5746" },
+  selectedEdge: { color: "#d7ecff" },
+  door: { color: "#7a4c2d", roughness: 0.7 },
+  window: { color: "#bce7ff", opacity: 0.42 },
+  ceiling: { color: "#fff", roughness: 0.9 },
+};
